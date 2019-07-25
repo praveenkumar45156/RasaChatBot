@@ -1,0 +1,30 @@
+%YAML 1.1
+---
+actions:
+- API_action
+- utter_askEmpID
+- utter_askRequest
+- utter_goodbye
+- utter_greet
+entities:
+- empID
+- request
+intents:
+- greet
+- inform
+- goodbye
+slots:
+  empID:
+    type: text
+  request:
+    type: text
+templates:
+  utter_askEmpID:
+  - text: Please enter employee ID!
+  utter_askRequest:
+  - text: Which Information u Required?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Welcome to Esi ChatBot. How may i Help You?

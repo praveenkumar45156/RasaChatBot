@@ -1,0 +1,40 @@
+%YAML 1.1
+---
+actions:
+- API_action
+- utter_askEmpID
+- utter_askRequest
+- utter_goodbye
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities:
+- empID
+- request
+forms: []
+intents:
+- greet:
+    use_entities: true
+- inform:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots:
+  empID:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  request:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_askEmpID:
+  - text: Please enter employee ID!
+  utter_askRequest:
+  - text: Which Information u Required?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Welcome to Esi ChatBot. How may i Help You?

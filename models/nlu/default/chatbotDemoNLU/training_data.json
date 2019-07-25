@@ -1,0 +1,1013 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hihi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thankyou"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byebye"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "show me employee details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "timesheet",
+            "entity": "request"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "show me timesheet of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "leaves",
+            "entity": "request"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "show me leaves of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "details"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "timesheet",
+            "entity": "request"
+          }
+        ],
+        "text": "timesheet"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "leaves",
+            "entity": "request"
+          }
+        ],
+        "text": "leaves"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "Tell me the details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "Employee details of 5730?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "employee details?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "can i get the employee details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "can i know the employee details "
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "can i know the employee details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "can i get the employee details "
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "can i get the employee details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 35,
+            "end": 39,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "May i know the employee details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "May i get the details of employee no.5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "May i get employee details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "could u show me the details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "let me know the details of employee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "can i access the details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "can i get the details of an employee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "details",
+            "entity": "request"
+          }
+        ],
+        "text": "can u please provide the details of an employee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "details",
+            "entity": "request"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "could u provide the details of 5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5708",
+            "entity": "empID"
+          }
+        ],
+        "text": "5708"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6720",
+            "entity": "empID"
+          }
+        ],
+        "text": "6720"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6718",
+            "entity": "empID"
+          }
+        ],
+        "text": "6718"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5007",
+            "entity": "empID"
+          }
+        ],
+        "text": "5007"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5719",
+            "entity": "empID"
+          }
+        ],
+        "text": "5719"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5716",
+            "entity": "empID"
+          }
+        ],
+        "text": "5716"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5712",
+            "entity": "empID"
+          }
+        ],
+        "text": "5712"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5721",
+            "entity": "empID"
+          }
+        ],
+        "text": "5721"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5707",
+            "entity": "empID"
+          }
+        ],
+        "text": "5707"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5702",
+            "entity": "empID"
+          }
+        ],
+        "text": "5702"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5703",
+            "entity": "empID"
+          }
+        ],
+        "text": "5703"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5711",
+            "entity": "empID"
+          }
+        ],
+        "text": "5711"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5701",
+            "entity": "empID"
+          }
+        ],
+        "text": "5701"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5745",
+            "entity": "empID"
+          }
+        ],
+        "text": "5745"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5744",
+            "entity": "empID"
+          }
+        ],
+        "text": "5744"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6719",
+            "entity": "empID"
+          }
+        ],
+        "text": "6719"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5743",
+            "entity": "empID"
+          }
+        ],
+        "text": "5743"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5742",
+            "entity": "empID"
+          }
+        ],
+        "text": "5742"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5741",
+            "entity": "empID"
+          }
+        ],
+        "text": "5741"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5740",
+            "entity": "empID"
+          }
+        ],
+        "text": "5740"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5738",
+            "entity": "empID"
+          }
+        ],
+        "text": "5738"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6716",
+            "entity": "empID"
+          }
+        ],
+        "text": "6716"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5737",
+            "entity": "empID"
+          }
+        ],
+        "text": "5737"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5736",
+            "entity": "empID"
+          }
+        ],
+        "text": "5736"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5734",
+            "entity": "empID"
+          }
+        ],
+        "text": "5734"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5733",
+            "entity": "empID"
+          }
+        ],
+        "text": "5733"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5732",
+            "entity": "empID"
+          }
+        ],
+        "text": "5732"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5731",
+            "entity": "empID"
+          }
+        ],
+        "text": "5731"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5730",
+            "entity": "empID"
+          }
+        ],
+        "text": "5730"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6714",
+            "entity": "empID"
+          }
+        ],
+        "text": "6714"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6707",
+            "entity": "empID"
+          }
+        ],
+        "text": "6707"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6713",
+            "entity": "empID"
+          }
+        ],
+        "text": "6713"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6712",
+            "entity": "empID"
+          }
+        ],
+        "text": "6712"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6710",
+            "entity": "empID"
+          }
+        ],
+        "text": "6710"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6709",
+            "entity": "empID"
+          }
+        ],
+        "text": "6709"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6708",
+            "entity": "empID"
+          }
+        ],
+        "text": "6708"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5727",
+            "entity": "empID"
+          }
+        ],
+        "text": "5727"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5726",
+            "entity": "empID"
+          }
+        ],
+        "text": "5726"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5729",
+            "entity": "empID"
+          }
+        ],
+        "text": "5729"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6706",
+            "entity": "empID"
+          }
+        ],
+        "text": "6706"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5724",
+            "entity": "empID"
+          }
+        ],
+        "text": "5724"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5722",
+            "entity": "empID"
+          }
+        ],
+        "text": "5722"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5720",
+            "entity": "empID"
+          }
+        ],
+        "text": "5720"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5718",
+            "entity": "empID"
+          }
+        ],
+        "text": "5718"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5717",
+            "entity": "empID"
+          }
+        ],
+        "text": "5717"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5710",
+            "entity": "empID"
+          }
+        ],
+        "text": "5710"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5009",
+            "entity": "empID"
+          }
+        ],
+        "text": "5009"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5714",
+            "entity": "empID"
+          }
+        ],
+        "text": "5714"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "5719",
+            "entity": "empID"
+          }
+        ],
+        "text": "5719"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform",
+    "entity_empID",
+    "entity_request",
+    "slot_empID_0",
+    "slot_request_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_API_action",
+    "prev_utter_askEmpID",
+    "prev_utter_askRequest",
+    "prev_utter_goodbye",
+    "prev_utter_greet"
+  ]
+}

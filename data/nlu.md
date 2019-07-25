@@ -1,0 +1,80 @@
+## intent:goodbye
+- bye
+- bye
+- thanks
+- thankyou
+- thank you
+- bye
+- thanks
+- thanks
+- bye
+- thank you
+- thank you
+- thanks
+- bye
+- bye
+- thanks
+- bye
+- thanks
+
+## intent:greet
+- hi
+- hey
+- hello
+- hihi
+- Hi
+- hey
+- hi
+- hey
+- hello
+- hi
+- hey
+- hi
+- hey
+- hello
+- hello
+- hi
+- hi
+- hii
+- hello
+- hii
+- hi
+
+## intent:inform
+- [5730](empID)
+- [5741](empID)
+- [5710](empID)
+- [5150](empID)
+- show [details](request) of [5710](empID)
+- [5730](empID)
+- show me [details](request)
+- [timesheet](request)
+- show me [details](request)
+- [timesheet](request)
+- [details](request)
+- [leaves](request)
+- show me [timesheet](request) of [5730](empID)
+- show me employee [details](request) of [5730](empID)
+- show me [leaves](request) of [5730](empID)
+- [timesheet](request)
+- [5730](empID)
+- [leaves](request)
+- [5730](empID)
+- [details](request)
+- [5730](empID)
+- [leaves](request)
+- [5730](empID)
+- [5730](empID)
+- [leaves](request)
+- can i know the employee [details](request)
+- [5741](empID)
+- can i get the [details](request) of an employee
+- [5741](empID)
+- can i get the [details](request) of an employee
+- [5710](empID)
+- can i get the [details](request) of an employee
+- [5708](empID)
+- can i get the [details](request) of an employee
+- [5708](empID)
+- employee [details](request)
+- [6708](empID)
